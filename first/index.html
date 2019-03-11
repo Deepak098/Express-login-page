@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Chat</title>
+  </head>
+  <style>
+    h1 {
+      font-size: 50px;
+      background-color: brown;
+      text-align: center;
+      width: 80%;
+      border-radius: 20px;
+      padding-left: 20px;
+      margin-left: 70px;
+      
+    }
+    button {
+      font-size: 40px;
+      background-color: red;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    label{
+      font-size: 30px;
+    }
+    form{
+      text-align: center;
+      font-size: 30px;
+    }
+      input[type="text"],
+      input[type="password"] {
+        border: 1px solid #bbb;
+        padding: 10 10 0 10px;
+        font-size: 25px;
+  </style>
+  <body>
+    <h1>Sign up Form</h1>
+    <form action="/" method="post">
+   
+      <label for="username">UserId: *</label><br/>
+      <input id="username" type="text" value="" name="username" autocomplete="off" required="required" /><br/>
+    <!--   <label for="email">Email: *</label><br/>
+      <input id="email" value="" name="email_address" autocomplete="off" required="required" /><br/> -->
+      <label for="phone">Password:</label><br/>
+      <input id="phone" type="password" value="" name="phone" autocomplete="off" /><br/>
+     
+      
+      <button type="submit">Sign up</button>
+    </form>
+  </body>
+</html>
